@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  webserver:
+    image: mario-webserver:latest
+    ports:
+      - "80:80"
+    restart: always
